@@ -22,6 +22,7 @@ html {
     padding: 0.5%;
     margin: 0 auto;
     background-image: url('MyPhoto.png');
+    object-fit: contain;
     margin-top: 7%;
     background-color: white;
     margin-bottom: 2%;
