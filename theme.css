@@ -1,7 +1,44 @@
-h1 {
-  font-family: monospace;
-  font-size: 50px;
-  border-radius: 5px;
-  background-color: #ededef;
-  color: #313131;
+html {
+  background-color: #ababef;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-image: url('hypnotize.png');
+}
+
+.page, .namepage {
+    background-color: #fefefe;
+    color: #313131;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 60%;
+    margin-left: 18%;
+    padding: 2%;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    margin-left: 37.5%;
+    padding: 0.5%;
+    margin: 0 auto;
+    margin-top: 7%;
+    background-color: white;
+    margin-bottom: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 22022000px;
+}
+
+.namepage {
+    width: 25%;
+    margin-left: 37.5%;
+    padding: 0.5%;
+    margin-bottom: 2%;
+}
+
+.name {
+    color: #212121;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 100;
+    font-family: 'Dosis', sans-serif;
 }
