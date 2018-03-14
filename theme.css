@@ -8,12 +8,6 @@ html {
   background-image: url('hypnotize.png');
 }
 
-img {
-    margin-top: 2px;
-    postion:absolute;
-    margin-left: 2px;
-}
-
 .menu a {
     color: #656565;
     background-color: rgba(255, 255, 255, 0);
