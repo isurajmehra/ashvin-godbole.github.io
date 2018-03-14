@@ -68,7 +68,7 @@ body {
     opacity: 0.85;
     vertical-align: middle;
     font-family: 'Dosis', sans-serif;
-    background-color: #faba95;
+    background-color: rgba(255, 255, 255, 0);
     color: #eee;
 }
 
