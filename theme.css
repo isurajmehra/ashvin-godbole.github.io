@@ -10,6 +10,7 @@ html {
 
 img {
     margin-top: 2px;
+    postion:absolute;
     margin-left: 2px;
 }
 
