@@ -24,7 +24,7 @@ html {
 
 .menu a:hover{
     color: #fff;
-    background-color: #d489b2;
+    background-color: rgba(10, 10, 10, 0.4);
     opacity: 1;
     float: right;
     height: 35px;
