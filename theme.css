@@ -5,7 +5,7 @@ html {
   background-attachment: fixed;
   background-position: center;
   background-repeat: repeat;
-  background-image: url('squares.png');
+  background-image: url('tiny-squares.png');
 }
 
 .menu a {
