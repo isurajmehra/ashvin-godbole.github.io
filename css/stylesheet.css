@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Roboto+Mono:300');
+
+html {
+    height: 100%;
+    background-image: url("../img/doodles.png");
+    background-repeat: repeat;
+    background-size: 400px;
+}
+
+.title {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 95pt;
+    margin-left: 2%;
+    color: #4a4a4a;
+}
+
+.highlight {
+    background: rgb(255, 255, 50);
+    background-size: 50%;
+}
+
+.testDesc {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20pt;
+    margin-left: 8%;
+    text-transform: uppercase;
+}
+
+
+ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  ul li {
+    display: inline-block;
+  }
+  
+.nav {
+    font-size: 20px;
+    color: #584E4A;
+    position: relative;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-bottom: 8px;
+  }
+.nav:before, .nav:after {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #F37272;
+  }
+.nav:before {
+    opacity: 0;
+    -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+    transition: opacity 0s, -webkit-transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+    transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s, -webkit-transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+.nav:after {
+    opacity: 0;
+    -webkit-transform: translateY(4px);
+            transform: translateY(4px);
+    transition: opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+.nav:hover:before, .nav:hover:after, .nav:focus:before, .nav:focus:after {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+.nav:hover:before, .nav:focus:before {
+    transition: opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+.nav:hover:after, .nav:focus:after {
+    transition: opacity 0s 0.2s, -webkit-transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s;
+    transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s, -webkit-transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  a{
+    text-decoration: none;
+  }
+  
+  .link{
+    position: relative;
+  }
+  
+  .link:after{
+    content: '';
+    position: absolute;
+    width: 0; height: 6px;
+    display: block;
+    margin-top: 0px;
+    right: 0;
+    background: rgb(212, 45, 45);
+    transition: width .2s ease;
+    -webkit-transition: width .2s ease;
+  }
+   
+  .link:hover:after{
+    width: 100%;
+    background: rgb(255, 53, 53);
+    left: 0;
+
+  }
+
+#q1 {
+    z-index: 6;
+}
+#q2 {
+    z-index: 5;
+}
+#q3 {
+    z-index: 4;
+}
+#q4 {
+    z-index: 3;
+}
+#q5 {
+    z-index: 2;
+}
+#q6 {
+    z-index: 1;
+}
